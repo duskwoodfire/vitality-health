@@ -130,7 +130,7 @@ function CartSidebar() {
                                   <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                 </div>
                                 <div className="flex-1 flex items-end justify-between text-sm">
-                                <p className="text-black">Qty {item.quantity}</p>
+                                <p className="text-black font-semibold">Qty : {item.quantity}</p>
                                   <div className="flex">
                                     <button
                                       type="button"
@@ -188,69 +188,61 @@ export default function Merchandise() {
     {
       id: "1",
       name: "T-Shirt",
-      description:
-        "Boost your immune system with our high-quality Vitamin C supplements. Each tablet contains 1000mg of Vitamin C, perfect for daily use.",
+      description: "Comfortable and stylish cotton T-shirt, perfect for casual wear.",
       price: 19.99,
       image: "/Shirt1.png?height=200&width=300",
     },
     {
       id: "2",
       name: "T-Shirt",
-      description:
-        "Premium non-slip yoga mat, perfect for home workouts or studio sessions. Made from eco-friendly materials for a comfortable and sustainable practice.",
+      description: "Premium quality T-shirt with a modern fit and soft fabric.",
       price: 29.99,
       image: "/Shirt2.png?height=200&width=300",
     },
     {
       id: "3",
       name: "Desk Calendar",
-      description:
-        "Accurate and easy-to-use home device for monitoring your blood pressure. Features a large display and memory function to track your readings over time.",
+      description: "Elegant desk calendar to keep your schedule organized all year.",
       price: 49.99,
       image: "/jan.png?height=200&width=300",
     },
     {
       id: "4",
       name: "Desk Calendar",
-      description:
-        "Plant-based protein supplement made from organic ingredients. Perfect for post-workout recovery or as a nutritious meal replacement.",
+      description: "Minimalist desk calendar with clear dates and a sleek design.",
       price: 39.99,
       image: "/feb.png?height=200&width=300",
     },
     {
       id: "5",
       name: "Journal",
-      description:
-        "Plant-based protein supplement made from organic ingredients. Perfect for post-workout recovery or as a nutritious meal replacement.",
+      description: "Premium journal with smooth pages, ideal for notes and ideas.",
       price: 39.99,
       image: "/Journal1.png?height=200&width=300",
     },
     {
       id: "6",
       name: "Journal",
-      description:
-        "Plant-based protein supplement made from organic ingredients. Perfect for post-workout recovery or as a nutritious meal replacement.",
+      description: "Durable hardcover journal, perfect for writing and sketching.",
       price: 39.99,
       image: "/Journal2.png?height=200&width=300",
     },
     {
       id: "7",
       name: "Poster",
-      description:
-        "Plant-based protein supplement made from organic ingredients. Perfect for post-workout recovery or as a nutritious meal replacement.",
+      description: "High-quality poster with vibrant colors, ideal for home decor.",
       price: 39.99,
       image: "/Poster1.png?height=200&width=300",
     },
     {
       id: "8",
       name: "Poster",
-      description:
-        "Plant-based protein supplement made from organic ingredients. Perfect for post-workout recovery or as a nutritious meal replacement.",
+      description: "Stylish wall poster to enhance your space with artistic flair.",
       price: 39.99,
       image: "/Poster2.png?height=200&width=300",
     },
-    
-  ]
+];
+
 
   return (
     <Layout>
