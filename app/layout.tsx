@@ -3,6 +3,7 @@ import "./globals.css";
 import { CartProvider } from "./contexts/CartContext";
 export const metadata: Metadata = {
   title: "Vitality",
+  icons:'./V.ico',
   description: "An App for our ESD Project",
 };
 
