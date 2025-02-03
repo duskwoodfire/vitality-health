@@ -203,14 +203,14 @@ export default function Merchandise() {
       id: "3",
       name: "Desk Calendar",
       description: "Elegant desk calendar to keep your schedule organized all year.",
-      price: 250,
+      price: 150,
       image: "/jan.png?height=200&width=300",
     },
     {
       id: "4",
       name: "Desk Calendar",
       description: "Minimalist desk calendar with clear dates and a sleek design.",
-      price: 250,
+      price: 150,
       image: "/feb.png?height=200&width=300",
     },
     {
@@ -231,14 +231,14 @@ export default function Merchandise() {
       id: "7",
       name: "Poster",
       description: "High-quality poster with vibrant colors, ideal for home decor.",
-      price: 150,
+      price: 50,
       image: "/Poster1.png?height=200&width=300",
     },
     {
       id: "8",
       name: "Poster",
       description: "Stylish wall poster to enhance your space with artistic flair.",
-      price: 150,
+      price: 50,
       image: "/Poster2.png?height=200&width=300",
     },
 ];
