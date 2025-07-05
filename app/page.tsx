@@ -15,15 +15,27 @@ export default function Home() {
           cutting-edge health tracking.
         </p>
         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-          <div className="rounded-md shadow">
-            <Link
-              href="/consultation"
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-zinc-800 md:py-4 md:text-lg md:px-10"
-            >
-              Book a Consultation
-              <ArrowRight className="ml-2 -mr-1 h-5 w-5" aria-hidden="true" />
-            </Link>
-          </div>
+        <div className="flex justify-center gap-x-4 mt-6">
+  <Link
+    href="/consultation"
+    className="flex items-center justify-center px-6 py-2 text-base font-semibold text-white bg-gradient-to-r from-black to-gray-700 rounded-full shadow-lg transition duration-300 hover:shadow-[0_0_15px_4px_rgba(75,85,99,0.5)]"
+  >
+    Book a Consultation
+    <ArrowRight className="ml-2 -mr-1 h-5 w-5" aria-hidden="true" />
+  </Link>
+
+  <a
+    href="https://www.practo.com/consult"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center px-6 py-2 text-base font-semibold text-white bg-gradient-to-r from-black to-gray-700 rounded-full shadow-lg transition duration-300 hover:shadow-[0_0_15px_4px_rgba(75,85,99,0.5)]"
+  >
+    Book via Practo
+  </a>
+</div>
+
+
+
         </div>
       </div>
 

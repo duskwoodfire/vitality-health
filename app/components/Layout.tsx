@@ -21,6 +21,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     { href: "/merchandise", label: "Shop", icon: ShoppingBag },
     { href: "/consultation", label: "Consult", icon: Calendar },
     { href: "/health-track", label: "Track", icon: Activity },
+    { href: "/health-track/diagnosis", label: "Diagnosis", icon: Activity },
   ]
 
   return (
