@@ -84,11 +84,11 @@ export default function MentalHealth() {
               intent="WELCOME"
               chat-title="vitalitybot"
               agent-id="8aa5c668-069b-4ec7-9899-4112302c97b4"
-              language-code="en"
-            ></df-messenger>
+              language-code="en">
+            </df-messenger>
           `,
         }}
-      ></div>
+      />
     </div>
   );
 }
