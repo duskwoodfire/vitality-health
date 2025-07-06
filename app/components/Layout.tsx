@@ -22,6 +22,9 @@ export default function Layout({ children }: { children: ReactNode }) {
     { href: "/consultation", label: "Consult", icon: Calendar },
     { href: "/health-track", label: "Track", icon: Activity },
     { href: "/health-track/diagnosis", label: "Diagnosis", icon: Activity },
+    { href: "/mentalhealth", label: "Mental Health", icon: Activity },
+    { href: "/pro", label: "Membership", icon: Activity },
+
   ]
 
   return (
