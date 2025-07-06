@@ -1,5 +1,5 @@
 declare namespace JSX {
   interface IntrinsicElements {
-    'df-messenger': any;
+    'df-messenger': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
   }
 }
