@@ -22,7 +22,8 @@ export default function AnxietyChecker() {
     setResponses(updated);
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+
     e.preventDefault();
     if (responses.some(r => r === '')) {
       alert('Please answer all questions.');
